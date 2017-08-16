@@ -1,0 +1,69 @@
+@media (min-width: 768px) {
+	.sidebar-nav .navbar .navbar-collapse {
+		padding: 0;
+		max-height: none;
+	}
+	.sidebar-nav .navbar ul {
+		float: none;
+		display: block;
+	}
+	.sidebar-nav .navbar li {
+		float: none;
+		display: block;
+	}
+	.sidebar-nav .navbar li a {
+		padding-top: 12px;
+		padding-bottom: 12px;
+	}
+	.sidebar-nav .navbar .navbar-header {
+		float: none;
+		text-align: center;
+	}
+}
+
+.lb-bienvenu {
+	font-weight: bold;
+	color: #000000;
+	font-size: 15px;
+	text-align: center;
+	line-height: 3;
+}
+
+.lb-carteFidelite {
+	margin-top: 20px;
+	text-align: center;
+}
+.lb-carteFidelite .lb-nombreTampons {
+	font-weight: bold;
+}
+
+.bt-deconnecter {
+	margin-top: 10px;
+	text-align: center;
+	color: #000000;
+	text-decoration: underline;
+}
+.bt-deconnecter:hover,
+.bt-deconnecter:focus {
+	background-color: transparent !important;
+	color: #000000;
+}
+
+#formReserver {
+	max-width: 400px;
+	padding: 15px;
+	margin: 0 auto;
+}
+#formReserver .form-control {
+	position: relative;
+	height: auto;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	padding: 10px;
+	font-size: 16px;
+	margin-bottom: 5px;
+}
+#formReserver .form-control:focus {
+	z-index: 2;
+}
